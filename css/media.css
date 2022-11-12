@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-width: 1480px) {
+	.sec-home-hero h1 {  top: 22%;}
+	.sec-services-intro .img-container {width: 43%;}
+	.sec-about-intro .anim-marsan { right: -36%;  bottom: -11%;  width: 66%;}
+}
+
+
+@media screen and (max-width: 1366px) {
+	.sec-home-hero h1 { font-size: 3rem;}
+	.swiper-home-portfolio .swiper-slide { max-width: 380px;}
+	footer .footer-top .text {font-size: 3.75rem;}
+	.sec-services-intro h1 {  font-size: 3rem;}
+	.sec-services-intro .img-container { width: 41%;  right: 0%;  top: 50%;}
+	.sec-services-clients .content {font-size: 3.375rem;}
+	.sec-about-intro h1 {font-size: 3rem;}
+	.sec-about-intro .anim-marsan{  right: -34%;  bottom: 0;  width: 60%;}
+	.sec-work-intro {  height: 60vh;}
+}
+
+
+@media screen and (max-width: 980px) {
+	header { height: 70px;}
+	.resize-header { height: 70px;}
+	.header-inner-cn .logo { width: 175px;  height: auto;}
+	nav {display:none}
+	main { -webkit-overflow-scrolling: touch; height:auto; overflow-x:hidden}
+	#mobile-nav { display: block }
+	#menu-icon { display: flex;}
+	
+	
+	
+	/*Homepage*/
+	.sec-home-hero h1 { font-size: 2.2rem;  width: 100%; top: 13%; position:relative;margin-bottom: 15%;}
+	.sec-home-hero .anim-marsan {  width: 100%; bottom:initial; position: relative}
+	.sec-home-hero .anim-marsan .quote { bottom: 5%;  width: 100%;  text-align: center;  font-size: 0.8rem;}
+	
+	.spin-scroll .spinnable {width: 65px; height: 69px;}
+	.spin-scroll { width: 65px; height: 68px;left: 50%; transform: translateX(-50%);}
+	.sec-home-intro h2 {  width: 100%;}
+	
+	.sec-home-services .list-services .service-box { width: 100%;  margin-bottom: 30%;}
+	.sec-home-services h3 {width: 80%}
+	.sec-home-services .list-services .service-box .service-name img { display:none}
+	.portfolio-swiper-cn .controls-footer .nav-controls {width: 30%;}
+	.sec-home-motto .box-motto {  width: 80%;}
+	.sec-home-motto .box-motto .title {    font-size: 2.575rem;}
+	
+	.sec-home-kre .cont1400 { flex-wrap: wrap;}
+	.sec-home-kre .photo01 {  width: 80%;}
+	.sec-home-kre .text { position: relative;  font-size: 2.625rem;   margin: 20% 0;}
+	.sec-home-kre .photo02 {  display:none;}
+	footer .footer-top .link-more { margin-bottom: 15%;}
+	footer .footer-top .text { font-size: 2.575rem;  width: 100%;  margin-bottom: 13%;}	
+	footer .footer-middle .cont1400 {flex-wrap: wrap;}
+	ul.social-links {   margin-bottom: 5%;}
+	footer .footer-middle .mail {  margin-bottom: 5%;}
+	
+	/*Work*/
+	.sec-work-intro {   height: auto;  margin-top: 70px; }
+	ul.listing-projects { padding: 0 5%;}
+	ul.listing-projects li {  width: 100%;  margin: 2.5% 0 15% 0;}
+	
+	/*Work Details*/
+	.sec-work-project-details .node-text > div {  width: 80%;}
+	.sec-work-project-details .node-image { margin-bottom: 10%;}
+	.sec-work-project-details .node-text { margin-bottom: 10%;  font-size: 1.5rem;}
+	a.back {  font-size: 1.5rem;}
+	
+	/*About*/
+	.sec-about-intro {  height: auto;  margin-top: 70px;}
+	.sec-about-intro h1 {  font-size: 2.2rem; position: relative;  width: 80%;  top: 0;margin-top: 10%;  margin-bottom: 22%;}
+	.sec-about-intro h2 {  position: relative; font-size: 1.5rem;  width: 80%;  top:0;  left: 0;margin-bottom: 10%;}
+	.sec-about-history h3 { font-size: 1.5rem; width: 100%;  margin-bottom: 5%;}
+	.sec-about-history h4 {  font-size: 1.5rem;  width: 100%;  margin-top: 12%;}
+	.sec-about-history .img-container {  position: relative; width: 50%;  margin-top: 0;}
+	.sec-about-motto .content .title { margin-top: 12%; font-size: 2.375rem;  margin-bottom: 12%;}	
+	.sec-about-motto .content .text {  font-size: 1.5rem;}
+	.sec-about-process .title {  margin: 15% auto 20%;}
+	.sec-about-process ul.process {  flex-direction: column;    margin-bottom: 15%;}	
+	.sec-about-process ul.process li {width: 200px; height: 200px; margin: -5% 0;}
+	.sec-about-process ul.process li:before {  width: 200px;  height: 200px;}
+	
+	/*Services*/
+	.sec-services-intro {  height: auto;  margin-top: 70px;}
+	.sec-services-intro h1 {  font-size: 2.2rem;  position: relative;  width: 80%;  top: 0; margin-top:10%; margin-bottom: 10%}
+	.sec-services-intro .img-container {  position: relative;  width: 65%;  right: -23%;  top: 0;  margin-top: 25%;}	
+	.sec-services-intro h2 { position: relative; font-size: 1.875rem; width: 100%;  top: 0; left: 0;  margin-top: 30%;}	
+	.services-container .list-services .title { font-size: 2rem;  margin-bottom: 7%;}
+	.services-container .list-services .text { font-size: 1.3rem;  width: 90%;}
+	.sec-services-clients .content { font-size: 2.375rem;  width: 70%; margin-bottom: 15%;}
+	.clients-logo-tile ul li { width: 100%;  height: 245px;  margin-bottom: 15px;}
+	
+	.sec-services-intro .img-container > div:first-child {
+	 top: -20%;
+     left: -15%;
+	 transform: rotate(-11.62deg);
+	 position: absolute;
+}
+
+.sec-services-intro .img-container > div:nth-child(2) {
+	position: relative;
+    z-index: 2;
+    transform: translate(0, 0);
+	
+	
+}
+.sec-services-intro .img-container > div:nth-child(3) {
+	top: 12%;
+	left: 16%;
+	position: absolute;
+	transform: rotate(15.91deg);
+	z-index: 3;
+	
+}
+	
+	
+	
+	
+	/*Contact*/
+	.sec-contact-intro {padding: 10% 0 3% 0;  height: 70vh;}
+	.sec-contact-intro h1 { margin-bottom: 15%;  margin-top: 15%;}
+	a.more {font-size: 1.5rem;}
+	
+}
